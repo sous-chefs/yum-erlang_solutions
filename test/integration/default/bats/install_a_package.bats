@@ -1,3 +1,3 @@
 @test "install a package" {
-      yum -y install getinfo
+  sudo yum -y install erlang
 }
