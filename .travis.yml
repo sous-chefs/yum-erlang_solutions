@@ -1,9 +1,10 @@
+language: ruby
+bundler_args: --without development
 rvm:
   - 1.9.3
 before_install:
   - "echo 'gem: --no-ri --no-rdoc' > ~/.gemrc"
-  - bundle install
-  - berks install
+  - bundle exec berks install
 script:
   - bundle exec foodcritic -f any . --tags ~FC005
   - bundle exec rubocop
