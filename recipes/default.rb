@@ -31,6 +31,7 @@ yum_repository 'erlang_solutions' do
   include_config node['yum']['erlang_solutions']['include_config']
   includepkgs node['yum']['erlang_solutions']['includepkgs']
   keepalive node['yum']['erlang_solutions']['keepalive']
+  make_cache node['yum']['erlang_solutions']['enabled']
   max_retries node['yum']['erlang_solutions']['max_retries']
   metadata_expire node['yum']['erlang_solutions']['metadata_expire']
   mirror_expire node['yum']['erlang_solutions']['mirror_expire']
