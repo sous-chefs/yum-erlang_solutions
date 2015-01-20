@@ -8,3 +8,4 @@ default['yum']['erlang_solutions']['description'] = 'Centos $releasever - $basea
 default['yum']['erlang_solutions']['gpgkey'] = 'http://packages.erlang-solutions.com/debian/erlang_solutions.asc'
 default['yum']['erlang_solutions']['gpgcheck'] = false
 default['yum']['erlang_solutions']['enabled'] = true
+default['yum']['erlang_solutions']['managed'] = true
