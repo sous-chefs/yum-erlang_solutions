@@ -1,6 +1,6 @@
-yum-fedora Cookbook CHANGELOG
-======================
-This file is used to list changes made in each version of the yum-centos cookbook.
+yum-erlang_solutions Cookbook CHANGELOG
+=======================================
+This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
 v0.2.0 (2014-02-14)
 -------------------
