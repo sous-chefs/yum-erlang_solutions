@@ -6,7 +6,7 @@ description 'Installs/Configures yum-erlang_solutions'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version '0.2.1'
 
-depends 'yum', '~> 3.0'
+depends 'yum', '~> 3.2'
 
 %w(amazon centos fedora oracle redhat scientific).each do |os|
   supports os
