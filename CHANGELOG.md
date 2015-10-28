@@ -2,6 +2,10 @@ yum-erlang_solutions Cookbook CHANGELOG
 =======================================
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+v0.2.3 (2015-10-28)
+-------------------
+- Fixing Chef 13 nil property deprecation warnings
+
 v0.2.2 (2014-09-22)
 -------------------
 - Add default['yum']['erlang_solutions']['managed'] attribute to control if the repository is managed. Defaults to true.
