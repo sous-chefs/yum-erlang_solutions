@@ -2,6 +2,10 @@ yum-erlang_solutions Cookbook CHANGELOG
 =======================================
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+v0.3.0 (2015-12-01)
+-------------------
+- Depending on yum-epel
+
 v0.2.4 (2015-11-23)
 -------------------
 - Fix setting bool false property values
