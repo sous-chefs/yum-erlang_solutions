@@ -16,6 +16,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+include_recipe 'yum-epel'
+
 if node['yum']['erlang_solutions']['managed']
   yum_repository 'erlang_solutions' do
     description node['yum']['erlang_solutions']['description'] unless node['yum']['erlang_solutions']['description'].nil?

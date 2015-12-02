@@ -6,6 +6,7 @@ description 'Installs/Configures yum-erlang_solutions'
 version '0.2.4'
 
 depends 'yum', '~> 3.2'
+depends 'yum-epel'
 
 %w(amazon centos fedora oracle redhat scientific).each do |os|
   supports os
