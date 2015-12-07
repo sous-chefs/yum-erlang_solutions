@@ -51,7 +51,7 @@ Usage Example
 -------------
 To disable the erlang_solutions repository through a Role or Environment definition
 
-```
+```ruby
 default_attributes(
   :yum => {
     :erlang_solutions => {
@@ -66,7 +66,7 @@ default_attributes(
 To enable the erlang_solutions repository with a wrapper cookbook, place
 the following in a recipe:
 
-```
+```ruby
 node.default['yum']['erlang_solutions']['enabled'] = true
 include_recipe 'yum-erlang_solutions'
 ```
@@ -75,7 +75,7 @@ More Examples
 -------------
 Point the erlang_solutions repositories at an internally hosted server.
 
-```
+```ruby
 node.default['yum']['erlang_solutions']['enabled'] = true
 node.default['yum']['erlang_solutions']['baseurl'] = 'https://internal.example.com/erlang_solutions'
 node.default['yum']['erlang_solutions']['sslverify'] = false
