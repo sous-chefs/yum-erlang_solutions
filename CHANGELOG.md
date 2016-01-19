@@ -1,8 +1,12 @@
 # yum-erlang_solutions Cookbook CHANGELOG
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## v0.3.1 (2015-12-01)
+- Removed an attribute case statement that caused the cookbook to fail on RHEL 7.X releases
+
 ## v0.3.0 (2015-12-01)
-- Depending on yum-epel
+- Added dependency on yum-epel
+- Added integration testing in Travis with kitchen-dokken
 
 ## v0.2.4 (2015-11-23)
 - Fix setting bool false property values
