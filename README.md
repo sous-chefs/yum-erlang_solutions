@@ -24,8 +24,8 @@ The yum-erlang_solutions cookbook takes over management of the default repositor
 The following attributes are set by default
 
 ```ruby
-default['yum']['erlang_solutions']['baseurl'] = 'http://packages.erlang-solutions.com/rpm/centos/$releasever/$basearch'
-default['yum']['erlang_solutions']['description'] = 'Centos $releasever - $basearch - Erlang Solutions'
+default['yum']['erlang_solutions']['baseurl'] = "http://packages.erlang-solutions.com/rpm/centos/#{platform_version.to_i}/$basearch"
+default['yum']['erlang_solutions']['description'] = "Centos #{platform_version.to_i} - $basearch - Erlang Solutions"
 default['yum']['erlang_solutions']['gpgkey'] = 'http://packages.erlang-solutions.com/debian/erlang_solutions.asc'
 default['yum']['erlang_solutions']['enabled'] = true
 ```
@@ -38,8 +38,8 @@ default['yum']['erlang_solutions']['enabled'] = true
 
 ```ruby
   yum_repository 'erlang_solutions' do
-    baseurl 'http://packages.erlang-solutions.com/rpm/centos/$releasever/$basearch'
-    description 'Centos $releasever - $basearch - Erlang Solutions'
+    baseurl 'http://packages.erlang-solutions.com/rpm/centos/#{platform_version.to_i}/$basearch'
+    description 'Centos #{platform_version.to_i} - $basearch - Erlang Solutions'
     enabled true
     gpgcheck true
     gpgkey 'http://packages.erlang-solutions.com/debian/erlang_solutions.asc'
