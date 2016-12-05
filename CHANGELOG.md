@@ -1,6 +1,10 @@
 # yum-erlang_solutions Cookbook CHANGELOG
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## 1.0.2 (2016-12-05)
+- Documentation fixes
+- Avoid deprecation warnings
+
 ## 1.0.1 (2016-11-14)
 - Resolve releasever issues
 
