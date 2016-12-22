@@ -4,7 +4,7 @@ maintainer_email 'cookbooks@chef.io'
 license 'Apache 2.0'
 description 'Installs/Configures yum-erlang_solutions'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version '1.0.2'
+version '1.0.3'
 
 depends 'compat_resource', '>= 12.16.3'
 depends 'yum-epel'
