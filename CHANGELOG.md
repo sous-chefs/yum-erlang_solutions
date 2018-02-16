@@ -1,6 +1,12 @@
 # yum-erlang_solutions Cookbook CHANGELOG
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## 2.0.0 (2018-02-16)
+
+- Require Chef 12.14+ and remove compat_resource dep
+- Testing improvements
+- Use a SPDX compliant license string
+
 ## 1.0.3 (2016-12-22)
 
 - Depend on the latest compat_resource cookbook
