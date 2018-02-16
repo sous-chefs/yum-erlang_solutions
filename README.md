@@ -13,11 +13,11 @@ The yum-erlang_solutions cookbook takes over management of the default repositor
 
 ### Chef
 
-- Chef 12.1+
+- Chef 12.14+
 
 ### Cookbooks
 
-- compat_resource
+- none
 
 ## Attributes
 
