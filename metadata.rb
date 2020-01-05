@@ -13,4 +13,4 @@ end
 
 source_url 'https://github.com/chef-cookbooks/yum-erlang_solutions'
 issues_url 'https://github.com/chef-cookbooks/yum-erlang_solutions/issues'
-chef_version '>= 12.14'
+chef_version '>= 12.15'
