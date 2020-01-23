@@ -5,7 +5,7 @@ describe 'yum-erlang_solutions::default' do
     let(:chef_run) do
       ChefSpec::SoloRunner.new(
         platform: 'centos',
-        version: '7.3.1611'
+        version: '7'
       ).converge(described_recipe)
     end
 
