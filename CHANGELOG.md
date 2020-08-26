@@ -1,6 +1,10 @@
 # yum-erlang_solutions Cookbook CHANGELOG
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## Unreleased
+
+- resolved cookstyle error: spec/default_spec.rb:22:7 warning: `ChefDeprecations/DeprecatedChefSpecPlatform`
+
 ## 2.0.0 (2018-02-16)
 
 - Require Chef 12.14+ and remove compat_resource dep
