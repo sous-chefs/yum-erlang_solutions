@@ -2,6 +2,8 @@
 
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## Unreleased
+
 ## 2.1.0 - *2021-02-05*
 
 - Sous Chefs Adoption
