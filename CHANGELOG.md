@@ -2,6 +2,8 @@
 
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## Unreleased
+
 ## 2.1.3 - *2021-11-03*
 
 - Add CentOS Stream 8 to CI pipeline
