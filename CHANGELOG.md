@@ -4,6 +4,9 @@ This file is used to list changes made in each version of the yum-erlang_solutio
 
 ## Unreleased
 
+- Add Alma Linux and Rocky Linux to testing
+- Remove CentOS 8 (prefer Stream)
+
 ## 2.1.3 - *2021-11-03*
 
 - Add CentOS Stream 8 to CI pipeline
