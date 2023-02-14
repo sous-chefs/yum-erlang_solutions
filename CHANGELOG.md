@@ -4,6 +4,8 @@ This file is used to list changes made in each version of the yum-erlang_solutio
 
 ## Unreleased
 
+## 2.1.5 - *2023-02-14*
+
 ## 2.1.4 - *2022-01-27*
 
 - Add Alma Linux and Rocky Linux to testing
