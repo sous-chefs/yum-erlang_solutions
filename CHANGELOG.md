@@ -2,6 +2,8 @@
 
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## Unreleased
+
 ## 2.1.7 - *2023-10-03*
 
 - Standardise files with files in sous-chefs/repo-management
