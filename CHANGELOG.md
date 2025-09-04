@@ -2,6 +2,8 @@
 
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## Unreleased
+
 ## 2.1.10 - *2025-09-04*
 
 ## 2.1.9 - *2024-05-03*
