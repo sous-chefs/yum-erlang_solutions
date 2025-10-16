@@ -2,6 +2,13 @@
 
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## [2.1.11](https://github.com/sous-chefs/yum-erlang_solutions/compare/2.1.10...v2.1.11) (2025-10-16)
+
+
+### Bug Fixes
+
+* **ci:** Update workflows to use release pipeline ([#43](https://github.com/sous-chefs/yum-erlang_solutions/issues/43)) ([f1e43dc](https://github.com/sous-chefs/yum-erlang_solutions/commit/f1e43dc24ae56e4558a018c0e373e03dd8a9b9f1))
+
 ## 2.1.7 - *2023-10-03*
 
 * Standardise files with files in sous-chefs/repo-management
