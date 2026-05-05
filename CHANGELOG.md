@@ -2,6 +2,22 @@
 
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## [3.0.0](https://github.com/sous-chefs/yum-erlang_solutions/compare/v2.1.11...v3.0.0) (2026-05-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate yum-erlang_solutions to custom resource ([#48](https://github.com/sous-chefs/yum-erlang_solutions/issues/48))
+
+### Features
+
+* migrate yum-erlang_solutions to custom resource ([#48](https://github.com/sous-chefs/yum-erlang_solutions/issues/48)) ([3a75fe9](https://github.com/sous-chefs/yum-erlang_solutions/commit/3a75fe9e2ed2589fd6c3216dd34131eb553d71d0))
+
+
+### Bug Fixes
+
+* **ci:** Update workflows to use release pipeline ([#43](https://github.com/sous-chefs/yum-erlang_solutions/issues/43)) ([f1e43dc](https://github.com/sous-chefs/yum-erlang_solutions/commit/f1e43dc24ae56e4558a018c0e373e03dd8a9b9f1))
+
 ## [2.1.11](https://github.com/sous-chefs/yum-erlang_solutions/compare/2.1.10...v2.1.11) (2025-10-16)
 
 
