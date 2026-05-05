@@ -1,0 +1,7 @@
+---
+name: default
+title: Default Tests
+maintainer: Sous Chefs
+license: Apache-2.0
+summary: Default tests for the yum-erlang_solutions cookbook
+version: 1.0.0
