@@ -36,5 +36,5 @@ This cookbook does not build Erlang/OTP from source. Erlang Solutions identifies
 
 ## Sources
 
-* Erlang Solutions package retirement announcement: https://binaries2.erlang-solutions.com/packages.html
-* Chef platform lifecycle reference: https://docs.chef.io/platforms/
+* [Erlang Solutions package retirement announcement](https://binaries2.erlang-solutions.com/packages.html)
+* [Chef platform lifecycle reference](https://docs.chef.io/platforms/)
