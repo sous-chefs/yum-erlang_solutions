@@ -2,6 +2,13 @@
 
 This file is used to list changes made in each version of the yum-erlang_solutions cookbook.
 
+## [3.0.1](https://github.com/sous-chefs/yum-erlang_solutions/compare/v3.0.0...v3.0.1) (2026-07-09)
+
+
+### Bug Fixes
+
+* migrate to Policyfile ([#56](https://github.com/sous-chefs/yum-erlang_solutions/issues/56)) ([00ee486](https://github.com/sous-chefs/yum-erlang_solutions/commit/00ee486abf2ffb69bded84b23faa3f8658e41481))
+
 ## [3.0.0](https://github.com/sous-chefs/yum-erlang_solutions/compare/v2.1.11...v3.0.0) (2026-05-05)
 
 
